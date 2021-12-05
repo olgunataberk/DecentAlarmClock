@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E75548275D2C730003283D /* Decent_Alarm_ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E75547275D2C730003283D /* Decent_Alarm_ClockApp.swift */; };
+		02E7554A275D2C730003283D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E75549275D2C730003283D /* ContentView.swift */; };
+		02E7554C275D2C750003283D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E7554B275D2C750003283D /* Assets.xcassets */; };
+		02E7554F275D2C750003283D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E7554E275D2C750003283D /* Preview Assets.xcassets */; };
+		02E7555A275D2C750003283D /* Decent_Alarm_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E75559275D2C750003283D /* Decent_Alarm_ClockTests.swift */; };
+		02E75564275D2C750003283D /* Decent_Alarm_ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E75563275D2C750003283D /* Decent_Alarm_ClockUITests.swift */; };
+		02E75566275D2C750003283D /* Decent_Alarm_ClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E75565275D2C750003283D /* Decent_Alarm_ClockUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02E75556275D2C750003283D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02E7553C275D2C720003283D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02E75543275D2C720003283D;
+			remoteInfo = "Decent Alarm Clock";
+		};
+		02E75560275D2C750003283D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02E7553C275D2C720003283D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02E75543275D2C720003283D;
+			remoteInfo = "Decent Alarm Clock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E75544275D2C730003283D /* Decent Alarm Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Decent Alarm Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E75547275D2C730003283D /* Decent_Alarm_ClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decent_Alarm_ClockApp.swift; sourceTree = "<group>"; };
+		02E75549275D2C730003283D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02E7554B275D2C750003283D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02E7554E275D2C750003283D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02E75550275D2C750003283D /* Decent_Alarm_Clock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Decent_Alarm_Clock.entitlements; sourceTree = "<group>"; };
+		02E75555275D2C750003283D /* Decent Alarm ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Decent Alarm ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E75559275D2C750003283D /* Decent_Alarm_ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decent_Alarm_ClockTests.swift; sourceTree = "<group>"; };
+		02E7555F275D2C750003283D /* Decent Alarm ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Decent Alarm ClockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E75563275D2C750003283D /* Decent_Alarm_ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decent_Alarm_ClockUITests.swift; sourceTree = "<group>"; };
+		02E75565275D2C750003283D /* Decent_Alarm_ClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decent_Alarm_ClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02E75541275D2C720003283D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E75552275D2C750003283D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E7555C275D2C750003283D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02E7553B275D2C720003283D = {
+			isa = PBXGroup;
+			children = (
+				02E75546275D2C730003283D /* Decent Alarm Clock */,
+				02E75558275D2C750003283D /* Decent Alarm ClockTests */,
+				02E75562275D2C750003283D /* Decent Alarm ClockUITests */,
+				02E75545275D2C730003283D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02E75545275D2C730003283D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02E75544275D2C730003283D /* Decent Alarm Clock.app */,
+				02E75555275D2C750003283D /* Decent Alarm ClockTests.xctest */,
+				02E7555F275D2C750003283D /* Decent Alarm ClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02E75546275D2C730003283D /* Decent Alarm Clock */ = {
+			isa = PBXGroup;
+			children = (
+				02E75547275D2C730003283D /* Decent_Alarm_ClockApp.swift */,
+				02E75549275D2C730003283D /* ContentView.swift */,
+				02E7554B275D2C750003283D /* Assets.xcassets */,
+				02E75550275D2C750003283D /* Decent_Alarm_Clock.entitlements */,
+				02E7554D275D2C750003283D /* Preview Content */,
+			);
+			path = "Decent Alarm Clock";
+			sourceTree = "<group>";
+		};
+		02E7554D275D2C750003283D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02E7554E275D2C750003283D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02E75558275D2C750003283D /* Decent Alarm ClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				02E75559275D2C750003283D /* Decent_Alarm_ClockTests.swift */,
+			);
+			path = "Decent Alarm ClockTests";
+			sourceTree = "<group>";
+		};
+		02E75562275D2C750003283D /* Decent Alarm ClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02E75563275D2C750003283D /* Decent_Alarm_ClockUITests.swift */,
+				02E75565275D2C750003283D /* Decent_Alarm_ClockUITestsLaunchTests.swift */,
+			);
+			path = "Decent Alarm ClockUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02E75543275D2C720003283D /* Decent Alarm Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E75569275D2C750003283D /* Build configuration list for PBXNativeTarget "Decent Alarm Clock" */;
+			buildPhases = (
+				02E75540275D2C720003283D /* Sources */,
+				02E75541275D2C720003283D /* Frameworks */,
+				02E75542275D2C720003283D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Decent Alarm Clock";
+			productName = "Decent Alarm Clock";
+			productReference = 02E75544275D2C730003283D /* Decent Alarm Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02E75554275D2C750003283D /* Decent Alarm ClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E7556C275D2C750003283D /* Build configuration list for PBXNativeTarget "Decent Alarm ClockTests" */;
+			buildPhases = (
+				02E75551275D2C750003283D /* Sources */,
+				02E75552275D2C750003283D /* Frameworks */,
+				02E75553275D2C750003283D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02E75557275D2C750003283D /* PBXTargetDependency */,
+			);
+			name = "Decent Alarm ClockTests";
+			productName = "Decent Alarm ClockTests";
+			productReference = 02E75555275D2C750003283D /* Decent Alarm ClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02E7555E275D2C750003283D /* Decent Alarm ClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E7556F275D2C750003283D /* Build configuration list for PBXNativeTarget "Decent Alarm ClockUITests" */;
+			buildPhases = (
+				02E7555B275D2C750003283D /* Sources */,
+				02E7555C275D2C750003283D /* Frameworks */,
+				02E7555D275D2C750003283D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02E75561275D2C750003283D /* PBXTargetDependency */,
+			);
+			name = "Decent Alarm ClockUITests";
+			productName = "Decent Alarm ClockUITests";
+			productReference = 02E7555F275D2C750003283D /* Decent Alarm ClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02E7553C275D2C720003283D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					02E75543275D2C720003283D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					02E75554275D2C750003283D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 02E75543275D2C720003283D;
+					};
+					02E7555E275D2C750003283D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 02E75543275D2C720003283D;
+					};
+				};
+			};
+			buildConfigurationList = 02E7553F275D2C720003283D /* Build configuration list for PBXProject "Decent Alarm Clock" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02E7553B275D2C720003283D;
+			productRefGroup = 02E75545275D2C730003283D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02E75543275D2C720003283D /* Decent Alarm Clock */,
+				02E75554275D2C750003283D /* Decent Alarm ClockTests */,
+				02E7555E275D2C750003283D /* Decent Alarm ClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02E75542275D2C720003283D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E7554F275D2C750003283D /* Preview Assets.xcassets in Resources */,
+				02E7554C275D2C750003283D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E75553275D2C750003283D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E7555D275D2C750003283D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02E75540275D2C720003283D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E7554A275D2C730003283D /* ContentView.swift in Sources */,
+				02E75548275D2C730003283D /* Decent_Alarm_ClockApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E75551275D2C750003283D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E7555A275D2C750003283D /* Decent_Alarm_ClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E7555B275D2C750003283D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E75566275D2C750003283D /* Decent_Alarm_ClockUITestsLaunchTests.swift in Sources */,
+				02E75564275D2C750003283D /* Decent_Alarm_ClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02E75557275D2C750003283D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02E75543275D2C720003283D /* Decent Alarm Clock */;
+			targetProxy = 02E75556275D2C750003283D /* PBXContainerItemProxy */;
+		};
+		02E75561275D2C750003283D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02E75543275D2C720003283D /* Decent Alarm Clock */;
+			targetProxy = 02E75560275D2C750003283D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02E75567275D2C750003283D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02E75568275D2C750003283D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		02E7556A275D2C750003283D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Decent Alarm Clock/Decent_Alarm_Clock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Decent Alarm Clock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "decentApps.Decent-Alarm-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		02E7556B275D2C750003283D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Decent Alarm Clock/Decent_Alarm_Clock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Decent Alarm Clock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "decentApps.Decent-Alarm-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		02E7556D275D2C750003283D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "decentApps.Decent-Alarm-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Decent Alarm Clock.app/Contents/MacOS/Decent Alarm Clock";
+			};
+			name = Debug;
+		};
+		02E7556E275D2C750003283D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "decentApps.Decent-Alarm-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Decent Alarm Clock.app/Contents/MacOS/Decent Alarm Clock";
+			};
+			name = Release;
+		};
+		02E75570275D2C750003283D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "decentApps.Decent-Alarm-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Decent Alarm Clock";
+			};
+			name = Debug;
+		};
+		02E75571275D2C750003283D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "decentApps.Decent-Alarm-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Decent Alarm Clock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02E7553F275D2C720003283D /* Build configuration list for PBXProject "Decent Alarm Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E75567275D2C750003283D /* Debug */,
+				02E75568275D2C750003283D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E75569275D2C750003283D /* Build configuration list for PBXNativeTarget "Decent Alarm Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E7556A275D2C750003283D /* Debug */,
+				02E7556B275D2C750003283D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E7556C275D2C750003283D /* Build configuration list for PBXNativeTarget "Decent Alarm ClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E7556D275D2C750003283D /* Debug */,
+				02E7556E275D2C750003283D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E7556F275D2C750003283D /* Build configuration list for PBXNativeTarget "Decent Alarm ClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E75570275D2C750003283D /* Debug */,
+				02E75571275D2C750003283D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02E7553C275D2C720003283D /* Project object */;
+}
