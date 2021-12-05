@@ -14,6 +14,10 @@
 		02E7555A275D2C750003283D /* Decent_Alarm_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E75559275D2C750003283D /* Decent_Alarm_ClockTests.swift */; };
 		02E75564275D2C750003283D /* Decent_Alarm_ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E75563275D2C750003283D /* Decent_Alarm_ClockUITests.swift */; };
 		02E75566275D2C750003283D /* Decent_Alarm_ClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E75565275D2C750003283D /* Decent_Alarm_ClockUITestsLaunchTests.swift */; };
+		02E75573275D2F830003283D /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E75572275D2F830003283D /* Clock.swift */; };
+		02E75575275D3A850003283D /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02E75574275D3A850003283D /* alarm.mp3 */; };
+		02E75576275D3AC30003283D /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02E75574275D3A850003283D /* alarm.mp3 */; };
+		02E75577275D3AC30003283D /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02E75574275D3A850003283D /* alarm.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,8 @@
 		02E7555F275D2C750003283D /* Decent Alarm ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Decent Alarm ClockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E75563275D2C750003283D /* Decent_Alarm_ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decent_Alarm_ClockUITests.swift; sourceTree = "<group>"; };
 		02E75565275D2C750003283D /* Decent_Alarm_ClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decent_Alarm_ClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02E75572275D2F830003283D /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		02E75574275D3A850003283D /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,7 @@
 		02E7553B275D2C720003283D = {
 			isa = PBXGroup;
 			children = (
+				02E75574275D3A850003283D /* alarm.mp3 */,
 				02E75546275D2C730003283D /* Decent Alarm Clock */,
 				02E75558275D2C750003283D /* Decent Alarm ClockTests */,
 				02E75562275D2C750003283D /* Decent Alarm ClockUITests */,
@@ -100,6 +107,7 @@
 				02E7554B275D2C750003283D /* Assets.xcassets */,
 				02E75550275D2C750003283D /* Decent_Alarm_Clock.entitlements */,
 				02E7554D275D2C750003283D /* Preview Content */,
+				02E75572275D2F830003283D /* Clock.swift */,
 			);
 			path = "Decent Alarm Clock";
 			sourceTree = "<group>";
@@ -235,6 +243,7 @@
 			files = (
 				02E7554F275D2C750003283D /* Preview Assets.xcassets in Resources */,
 				02E7554C275D2C750003283D /* Assets.xcassets in Resources */,
+				02E75575275D3A850003283D /* alarm.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E75577275D3AC30003283D /* alarm.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E75576275D3AC30003283D /* alarm.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E75573275D2F830003283D /* Clock.swift in Sources */,
 				02E7554A275D2C730003283D /* ContentView.swift in Sources */,
 				02E75548275D2C730003283D /* Decent_Alarm_ClockApp.swift in Sources */,
 			);
