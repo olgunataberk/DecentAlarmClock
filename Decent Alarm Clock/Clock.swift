@@ -21,15 +21,62 @@ class Clock
     var _audioPlayer: AVAudioPlayer?
     var _alarmDateTime: Date
     var _alarmSet: Bool
+    var _timer: Timer?
     
-    func set(alarmTime: Date)
+    func prettyFormatDate(calendar: Calendar, time: Date) -> String
     {
-        _alarmDateTime = alarmTime
-        print(_alarmDateTime)
-        _alarmSet = true
+        // choose which date and time components are needed
+        let requestedComponents: Set<Calendar.Component> = [
+            .day,
+            .hour,
+            .minute
+        ]
+
+        // https://stackoverflow.com/a/33343958/11131120
+
+        let dateTimeComponents = calendar.dateComponents(requestedComponents, from: time)
+            
+        var onWhichDay = "Today"
+        // find if the alarm is supposed to sound tomorrow
+        if dateTimeComponents.day! > calendar.dateComponents(requestedComponents, from: Date()).day!
+        {
+            onWhichDay = "Tomorrow"
+        }
+        
+        let returnString = "Alarm set to " + onWhichDay + " at " + String(dateTimeComponents.hour!) + ":" + String(dateTimeComponents.minute!)
+        
+        return returnString
     }
     
-    func playSound()
+    func set(alarmTime: Date) -> Date
+    {
+        _alarmDateTime = alarmTime
+        _alarmSet = true
+        
+        if alarmTime.timeIntervalSinceNow < 0.0
+        {
+            print("Doing my job")
+            _alarmDateTime = Calendar.current.date(byAdding: .hour, value: 24, to: alarmTime)!
+            print(_alarmDateTime)
+        }
+        
+        // https://stackoverflow.com/questions/38248941/how-to-get-time-hour-minute-second-in-swift-3-using-nsdate
+        // *** create calendar object ***
+        var calendar = Calendar.current
+
+        // *** Get components using current Local & Timezone ***
+        print("Alarm Date/Time:", (calendar.dateComponents([.year, .month, .day, .hour, .minute], from: _alarmDateTime)))
+        // *** define calendar components to use as well Timezone to UTC ***
+        calendar.timeZone = TimeZone(identifier: "GMT+3")!
+        
+        let delta = _alarmDateTime.timeIntervalSince(Date())
+        print("Alarm will sound in " + String(delta) + "seconds")
+        _timer = Timer.scheduledTimer(timeInterval: TimeInterval(delta), target: self, selector: #selector(playSound), userInfo: nil, repeats: false)
+        
+        return _alarmDateTime
+    }
+    
+    @objc func playSound()
     {
         let url = Bundle.main.url(forResource: "alarm", withExtension: "mp3")!
         do {

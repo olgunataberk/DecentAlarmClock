@@ -18,8 +18,11 @@ struct ContentView: View {
                 Button(
                     action:
                         {
-                            _clock.set(alarmTime: selectedTime)
-                            alarmNotifierText = "Alarm Set to " + selectedTime.description
+                            // The clock can modify time to set it to tomorrow morning instead of this morning
+                            let newTime = _clock.set(alarmTime: selectedTime)
+                            let calendar = Calendar.current
+                            let notifyText = _clock.prettyFormatDate(calendar: calendar, time: newTime)
+                            alarmNotifierText = notifyText
                         }
                 ) {
                     Text("Set")
